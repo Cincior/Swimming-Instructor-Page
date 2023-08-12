@@ -1,2 +1,2 @@
 # Swimming-Instructor-Page
-Cdn project
+Cdn Tailwind project
