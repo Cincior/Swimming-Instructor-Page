@@ -1,0 +1,190 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logoC.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    'sm': '640px',
+                    'md': '768px',
+                    'lg': '1024px',
+                    'xl': '1280px',
+                    '2xl': '1536px',
+                },
+                extend: {
+                    screens: {
+                        'xs': '400px',
+                        's': '356px'
+                    }
+                    
+                },
+            },
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@300;400&family=Raleway:wght@300&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <title>Oferta</title>
+</head>
+
+<body style="font-family: 'Poppins'">
+    <!-- menu -->
+    <div class="h-screen flex flex-col">
+        <nav class="items-center shadow-lg bg-white z-10 fixed w-full">
+            <div class="flex flex-wrap items-center justify-between lg:mx-24 xl:mx-32 mx-2 px-2 md:h-20 h-16 ">
+                <a href="index.html" class="flex items-center">
+                    <img class="lg:w-32 lg:h-20 md:w-28 md:h-[70px] w-24 h-16 rounded-3xl" src="src/logoC.png" alt="logo">
+                    <div class="flex flex-col h-full lg:text-3xl md:text-2xl text-xl font-bold">
+                        <p class=" ps-2 flex text-center">Instruktor</p>
+                        <p class=" ps-2"> Piotr Łabuda</p>
+                    </div>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 text-sm text-blue-600 rounded-lg md:hidden bg-blue-100 focus:outline-none focus:bg-blue-200"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto md:bg-transparent bg-white" id="navbar-default">
+                    <ul
+                        class="text-xl md:gap-0 gap-1 flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-10 md:mt-0 md:border-0 text-center">
+                        <li class="">
+                            <a href="index.html"
+                                class="transition duration-300 shadow-xl md:w-28 md:h-11 py-2 pl-3 pr-4 rounded-md text-white bg-blue-500 hover:bg-blue-700 md:p-2 flex justify-center items-center"
+                                aria-current="page">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-7 h-7">
+                                    <path
+                                        d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                                    <path
+                                        d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a href="oferta.html"
+                                class="transition duration-300 shadow-xl block md:w-28 md:h-11 py-2 pl-3 pr-4 rounded-md text-white bg-blue-700 md:p-2">Oferta</a>
+                        </li>
+                        <li>
+                            <a href="kontakt.html"
+                                class="transition duration-300 shadow-xl block md:w-28 md:h-11 py-2 pl-3 pr-4 rounded-md text-white bg-blue-500 hover:bg-blue-700 md:p-2">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="flex justify-center bg-gray-100 flex-1 md:pt-20 pt-16">
+            <div class="flex w-11/12 flex-col bg-white shadow-md">
+                <div class="flex flex-1 "
+                    style="background-image: url(src/logo2.jpg); background-position: right; background-size: cover; background-attachment: fixed; ">
+                    <div class="flex flex-col xl:flex-row flex-1" style="background-color: rgba(255, 255, 255, 0.5);">
+                        <div class="flex w-full h-full xl:w-1/2 justify-center xl:items-center xl:p-0 p-6">
+                            <div
+                                class="group transform hover:scale-105 w-full sm:w-4/5 lg:w-3/5 xl:w-4/5 sm:h-[500px] s:h-[375px] h-[400px] xl:h-[75%] bg-blue-500 duration-300 rounded-3xl shadow-2xl sm:px-4 text-center border-blue-50 border-4 xs:p-4 p-1">
+                                <div class="flex flex-col sm:gap-2 h-4/6">
+                                    <div class="flex justify-center items-end">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="lg:w-20 lg:h-20 sm:w-16 sm:h-16 w-12 h-12 group-hover:w-14 group-hover:h-14 sm:group-hover:w-20 sm:group-hover:h-20 lg:group-hover:w-24 lg:group-hover:h-24 duration-150 text-white">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="text-xl xs:text-2xl sm:text-4xl font-extrabold mb-2 text-white">Oferta
+                                        indywidualna
+                                    </h3>
+                                    <p class="text-sm sm:text-lg lg:text-xl text-white">W cenie zawarta jest
+                                        indywidualna lekcja
+                                        pływania bez opłaty za wejście na basen. Konkretny plan zajęć jest
+                                        przygotowywany z klientem.</p>
+
+                                </div>
+
+                                <div class="flex h-1/6 justify-center  items-center">
+                                    <p class="text-2xl s:text-[28px] s:leading-[32px] sm:text-4xl text-white">45zł/h</p>
+                                </div>
+                                <div class="flex justify-center">
+                                    <a class="flex justify-center mr-0 text-white text-xl hover:underline underline-offset-2 rounded-3xl bg-blue-600 hover:bg-blue-700 p-3 px-4 shadow-xl"
+                                        href="kontakt.html">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="sm:w-10 sm:h-10  w-6 h-6">
+                                            <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                                          </svg>
+                                          
+                                          
+
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-full h-1/2 xl:h-full xl:w-1/2 justify-center xl:items-center xl:p-0 p-6">
+                            <div
+                                class="group transform hover:scale-105 w-full sm:w-4/5 lg:w-3/5 xl:w-4/5 sm:h-[500px] s:h-[375px] h-[400px] xl:h-[75%] bg-blue-500 duration-300 rounded-3xl shadow-2xl px-4 text-center border-blue-50 border-4 xs:p-4 p-1">
+                                <div class="flex flex-col sm:gap-2 h-4/6">
+                                    <div class="flex justify-center items-end">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="lg:w-20 lg:h-20 sm:w-16 sm:h-16 w-12 h-12 group-hover:w-16 group-hover:h-16 sm:group-hover:w-20 sm:group-hover:h-20 lg:group-hover:w-24 lg:group-hover:h-24 duration-150 text-white">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                                        </svg>
+
+                                    </div>
+                                    <h3 class="text-xl xs:text-2xl sm:text-4xl font-extrabold mb-2 text-white">Oferta
+                                        grupowa</h3>
+                                    <p class="text-sm sm:text-lg lg:text-xl text-white">To oferta dla maksymalnie 5
+                                        osób, które
+                                        mają ukończone 13 lat. W planie gry i zabawy połączone z nauką pływania, ale
+                                        konkretny plan jest uzgadniany z grupą przed zajęciami. W cenie nie jest zawarte
+                                        wejście na basen.</p>
+
+                                </div>
+
+                                <div class="flex h-1/6 justify-center items-center">
+                                    <p class="text-2xl s:text-[28px] s:leading-[32px] sm:text-4xl text-white">30zł/h
+                                        <span class="text-sm sm:text-lg"> (od
+                                            osoby)</span>
+                                    </p>
+                                </div>
+                                <div class="flex justify-center">
+                                    <a class="flex justify-center mr-0 text-white text-xl hover:underline underline-offset-2 rounded-3xl bg-blue-600 hover:bg-blue-700 p-3 px-4 shadow-xl"
+                                        href="kontakt.html">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="sm:w-10 sm:h-10  w-6 h-6">
+                                            <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                                          </svg>
+                                          
+
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="flex h-20 justify-center">
+                    <div class="flex items-center">Krzysztof Koszyk 2023&copy</div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</body>
+
+</html>
+
+</html>

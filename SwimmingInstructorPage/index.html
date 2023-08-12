@@ -1,0 +1,255 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logoC.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+
+    </script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@300;400&family=Raleway:wght@300&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <title>Instruktor pływania Chełmiec</title>
+</head>
+
+<body style="font-family: 'Poppins'">
+    <!-- menu -->
+    <div class="h-screen flex flex-col">
+        <nav class="items-center shadow-lg bg-white z-50 fixed w-full">
+            <div class="flex flex-wrap items-center justify-between lg:mx-24 xl:mx-32 mx-2 px-2 md:h-20 h-16 ">
+                <a href="index.html" class="flex items-center">
+                    <img class="lg:w-32 lg:h-20 md:w-28 md:h-[70px] w-24 h-16 rounded-3xl" src="src/logoC.png" alt="logo">
+                    <div class="flex flex-col h-full lg:text-3xl md:text-2xl text-xl font-bold">
+                        <p class=" ps-2 flex text-center">Instruktor</p>
+                        <p class=" ps-2"> Piotr Łabuda</p>
+                    </div>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 text-sm text-blue-600 rounded-lg md:hidden bg-blue-100 focus:outline-none focus:bg-blue-200"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto md:bg-transparent bg-white" id="navbar-default">
+                    <ul
+                        class="text-xl md:gap-0 gap-1 flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-10 md:mt-0 md:border-0 text-center ">
+                        <li class="">
+                            <a href="index.html"
+                                class="transition duration-300 shadow-xl md:w-28 md:h-11 py-2 pl-3 pr-4 rounded-md text-white bg-blue-700 md:p-2 flex justify-center items-center"
+                                aria-current="page">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-7 h-7">
+                                    <path
+                                        d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                                    <path
+                                        d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="oferta.html"
+                                class="transition duration-300 shadow-xl block md:w-28 md:h-11 py-2 pl-3 pr-4 rounded-md text-white bg-blue-500 hover:bg-blue-700 md:p-2">Oferta</a>
+                        </li>
+                        <li>
+                            <a href="kontakt.html"
+                                class="transition duration-300 shadow-xl block md:w-28 md:h-11 py-2 pl-3 pr-4 rounded-md text-white bg-blue-500 hover:bg-blue-700 md:p-2">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="flex justify-center bg-gray-100 flex-1 md:pt-20 pt-16">
+            <div class="flex w-11/12 flex-col bg-white shadow-md">
+                <main class="flex flex-col">
+
+                    <div class="flex"
+                        style="background-image: url(src/tlo.jpg); background-position: center; background-size: cover; background-attachment: fixed; height: 600px;">
+                        <div style="background-color: rgba(0, 0, 0, 0.7);"
+                            class="flex md:flex-row flex-col p-4 text-center text-white">
+                            <div class="flex justify-center h-full">
+                                <div class="flex flex-col justify-center m-3 md:text-2xl text-xl md:w-5/6 w-full">
+                                    <h3 class="md:text-6xl lg:text-7xl text-4xl tracking-wide pb-3">Instruktor pływania </h3>
+                                    <h3 class="md:text-6xl lg:text-7xl font-semibold text-4xl sm:pb-10 pb-6 tracking-wide">Piotr
+                                        Łabuda</h3>
+                                    <p class="md:text-xl lg:text-2xl text-base ">
+                                        Organizuję grupowe i indywidualne zajęcia z pływania.
+                                        Dzięki mnie postawisz swoje pierwsze kroki w wodzie lub udoskonalisz technikę.
+                                        Zawsze wchodzę do basenu ze swoimi uczniami, by lekcje były owocne i bezpieczne.
+                                        Współpracuję z młodszymi jak i starszymi fanami zabaw wodnych.</p>
+                                </div>
+                            </div>
+                            <!-- <div class="xl:w-1/3 md:w-1/2">
+                            <div class="flex flex-col p-3">
+                                <h4 class="pb-4">Ze swojej strony oferuję:</h4>
+                                <ul class="space-y-2 text-[#63C132] list-disc list-inside">
+                                    <li>
+                                        Miłą i przyjazną atmosferę
+                                    </li>
+                                    <li>
+                                        Profesjonalne podejście
+                                    </li>
+                                    <li>
+                                        Pasję i zaangażowanie
+                                    </li>
+                                    <li>
+                                        Najlepsze ceny
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> -->
+
+
+                        </div>
+                        <!-- <div class="flex justify-center w-2/4">
+                        <img class="rounded-xl md:max-h-[500px] max-h-[400px]" src="info.jpg" alt="info">
+                    </div> -->
+                    </div>
+                </main>
+
+                <div
+                    class="text-dark text-lg md:text-2xl flex flex-col justify-center text-center flex-1 md:pb-0 md:p-6 p-2 pt-0 pb-0 mt-6">
+                    <article class="flex xl:flex-row flex-col items-center justify-center my-6">
+                        <div class="flex justify-center xl:w-1/3 p-4 ">
+                            <div
+                                class="flex justify-center items-center rounded-full 2xl:w-96 2xl:h-96 xl:w-80 xl:h-80 sm:w-[350px] sm:h-[350px] h-72 w-72 2xl:text-[22px] 2xl:leading-[32px] xl:text-[19px] xl:leading-[24px] sm:text-[20px] sm:leading-[30px] text-[16px] leading-[24px] bg-gradient-to-b from-sky-400 to-indigo-400 text-white shadow-xl group-hover:shadow-2xl duration-150 relative border-blue-100 border-4 group transform hover:scale-110">
+                                <!-- <div
+                                    class="2xl:w-[200px] 2xl:h-[200px] xl:w-[120px] xl:h-[120px] sm:w-[140px] sm:h-[140px] w-[100px] h-[100px] absolute flex justify-center items-center -top-24 rounded-full">
+                                    <img src="icon111.png" alt="serce"
+                                        class="2xl:w-[170px] 2xl:h-[170px] xl:w-[120px] xl:h-[120px] sm:w-[140px] sm:h-[140px] w-[100px] h-[100px] text-white drop-shadow-[0_10px_10px_rgba(0,0,0,0.35)]">
+                                </div> -->
+                                <img src="src/icon11.png" alt="serce"
+                                    class="2xl:w-[170px] 2xl:h-[170px] xl:w-[130px] xl:h-[130px] sm:w-[140px] sm:h-[140px] w-[115px] h-[115px] absolute -top-16 drop-shadow-[0_10px_10px_rgba(0,0,0,0.25)]">
+                                <p class="p-4">Pływanie angażuje niemal wszystkie mięśnie naszego organizmu, co <span
+                                        class="font-bold">pozytywnie wpływa na nasze zdrowie </span></p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center xl:w-1/3 p-4 xl:m-0 m-14">
+                            <div
+                                class="flex justify-center items-center rounded-full 2xl:w-96 2xl:h-96 xl:w-80 xl:h-80 sm:w-[350px] sm:h-[350px] h-72 w-72 2xl:text-[22px] 2xl:leading-[32px] xl:text-[19px] xl:leading-[24px] sm:text-[20px] sm:leading-[30px] text-[16px] leading-[24px] bg-gradient-to-b from-sky-400 to-indigo-400 text-white shadow-xl group-hover:shadow-2xl duration-150 relative border-blue-100 border-4 group transform hover:scale-110">
+                                <img src="src/icon2222.png" alt="certyfikat"
+                                    class="2xl:w-[160px] 2xl:h-[160px] xl:w-[120px] xl:h-[120px] sm:w-[130px] sm:h-[130px] w-[110px] h-[110px] absolute -top-16 drop-shadow-[0_10px_10px_rgba(0,0,0,0.25)]">
+                                <p class="p-4">Profesjonalne szkolenie pływania dla każdego i w każdym wieku przez <span
+                                        class="font-bold">certyfikowanego intruktora</span></p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center xl:w-1/3 p-4">
+                            <div
+                                class="flex justify-center items-center rounded-full 2xl:w-96 2xl:h-96 xl:w-80 xl:h-80 sm:w-[350px] sm:h-[350px] h-72 w-72 2xl:text-[22px] 2xl:leading-[32px] xl:text-[19px] xl:leading-[24px] sm:text-[20px] sm:leading-[30px] text-[16px] leading-[24px] bg-gradient-to-b from-sky-400 to-indigo-400 text-white shadow-xl group-hover:shadow-2xl duration-150 relative border-blue-100 border-4 group transform hover:scale-110">
+                                <img src="src/icon33.png" alt="certyfikat"
+                                    class="2xl:w-[160px] 2xl:h-[160px] xl:w-[120px] xl:h-[120px] sm:w-[130px] sm:h-[130px] w-[110px] h-[110px] absolute -top-16 drop-shadow-[0_10px_10px_rgba(0,0,0,0.25)]">
+                                <p class="p-4">Zostaw swoje problemy za drzwiami hali basenowej i podaruj sobie wiele
+                                    <span class="font-bold">niezapomnianych wrażeń</span>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <section class="flex flex-col justify-center text-center ">
+                        <div class="flex flex-col">
+                            <div class=" p-4 sm:m-6 rounded-3xl ">
+                                <h2 class="mb-2 font-extrabold md:text-5xl text-3xl text-gray-900 pb-2">Miejsce
+                                    prowadzenia zajęć
+                                </h2>
+                                <div class="flex text-center flex-col mt-1">
+                                    <p>Aqua Centrum Chełmiec - Marcinkowicka 9, 33-395 Nowy Sącz</p>
+                                    <div class="flex w-full justify-center mt-4">
+                                        <div class="w-full relative group flex justify-center">
+                                            <div class="absolute sm:top-2 top-1 bg-blue-500 shadow-xl xl:w-[101%] md:w-[102%] w-[103%] md:h-[500px] h-[400px]"
+                                                style="border-radius: 20px;">
+                                            </div>
+                                            <div class="z-10 relative w-full flex justify-center">
+                                                <iframe
+                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2584.174983823308!2d20.66411427686005!3d49.63215654594352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473dfabdc4c16425%3A0x2a865780b447f229!2sAqua%20Centrum%20Che%C5%82miec!5e0!3m2!1spl!2spl!4v1685136182949!5m2!1spl!2spl"
+                                                    class="border-2 border-blue-600 w-full md:h-[500px] h-[400px]"
+                                                    style="border-radius: 20px;" allowfullscreen="" loading="lazy"
+                                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            </div>
+                                            
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <div class="flex justify-center flex-col md:mb-18 mt-4">
+
+                        <p class="font-extrabold md:text-5xl text-3xl">O mojej pracy</p>
+                        <div class="flex xl:flex-row flex-col-reverse mt-6 justify-center items-center">
+                            <div class="flex text-blue-700 xl:w-2/3 w-full justify-center items-center xl:mt-0 mt-6">
+                                <p class="lg:px-24 sm:px-12 px-5 md:text-2xl text-xl">Pływanie stało sie moją pasją wiele lat temu. Pomyślałem, że chciałbym tym zarażać innych. Uzyskanie certyfikatu instruktora dało mi możliwość przekazywania innym swojej wiedzy. Każda lekcja to gwarancja uśmiechu dla mnie jak i podopiecznego</p>
+                            </div>
+                            <img class="md:w-[420px] md:h-[420px] sm:w-[350px] sm:h-[350px] w-[310px] h-[310px] shadow-xl"
+                                src="src/certificate.png">
+                        </div>
+                        <div class="flex xl:flex-row flex-col mt-6 justify-center items-center">
+                            <img class="md:w-[420px] md:h-[420px] sm:w-[350px] sm:h-[350px] w-[310px] h-[310px] shadow-xl" src="src/pic1.png">
+                            <div
+                                class="flex text-blue-700 xl:w-2/3 w-full justify-center items-center xl:mt-0 mt-6">
+                                <p class="lg:px-24 sm:px-12 px-5 md:text-2xl text-xl">Pływanie to nie tylko dobry sposób na aktywne spędzenie czasu, ale też dobry sposób do nauki pokonywania własnych słabości. Czy dam radę przepłynąć całą długość basenu? Czy zrobie lepszy czas na 100 metrów niż ostatnio? Każdy powinien stawaić sobie nowe cele a ja chętnie pomogę w ich realizacji</p>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="flex lg:flex-row flex-col w-full">
+                                <div class="lg:w-1/2 italic flex flex-col justify-center items-center py-8">
+                                    <h5>Zdjęcie/Świadectwo</h5>
+                                    <div
+                                        class="md:w-[350px] md:h-[500px] sm:w-[300px] sm:h-[400px] w-[230px] h-[330px] border-4 shadow-xl">
+                                        <img class="h-full" src="info.jpg">
+                                    </div>
+                                </div>
+                                <div class="lg:w-1/2 italic flex flex-col justify-center items-center py-8">
+                                    <h5>Certyfikat</h5>
+                                    <div
+                                        class="md:w-[350px] md:h-[500px] sm:w-[300px] sm:h-[400px] w-[230px] h-[330px] border-4 shadow-xl">
+                                        <img class="h-full" src="info.jpg">
+                                    </div>
+                                </div>
+                            </div> -->
+                    </div>
+                    <div class="flex justify-center m-8">
+                        <a class="group flex justify-center items-center bg-blue-500 hover:bg-blue-600 p-4 px-6 md:px-10 rounded-3xl md:w-auto font-extrabold  md:text-3xl text-2xl text-white transform hover:scale-105 duration-200 shadow-lg"
+                            href="oferta.html"><span class="pe-2">Zapoznaj się z ofertą </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 md:group-hover:translate-x-3 group-hover:translate-x-2 duration-200">
+                                <path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clip-rule="evenodd" />
+                              </svg>
+                              
+                              
+                        </a>
+                    </div>
+                </div>
+                <footer class="flex h-20 justify-center align-bottom">
+                    <div class="flex items-center">Krzysztof Koszyk 2023&copy</div>
+                </footer>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</body>
+
+</html>
+
+</html>
